@@ -1,2 +1,1 @@
-CREATE WAREHOUSE flights;
-CREATE SCHEMA flights;
+
