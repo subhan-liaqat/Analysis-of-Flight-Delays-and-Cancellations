@@ -53,7 +53,7 @@ def pipeline():
     # Creates the table to snowflake, using the connection that has been defined in Airflow Web UI
     task0 = SnowflakeOperator(
         task_id = "create_table",
-        sql = "sql/create_table.sql",
+        sql = "CREATE TABLE flights",
         snowflake_conn_id = "subhanliaqat"
     )
 
